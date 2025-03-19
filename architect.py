@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torchvision
 import torchvision.transforms as transforms
 
+# torch has already provided the training and testing dataset
 # Define the CNN architecture
 class AnimalCNN(nn.Module):
     def __init__(self, num_classes=10):
