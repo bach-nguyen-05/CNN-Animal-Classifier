@@ -5,7 +5,7 @@ which consists of 60,000 32x32 color images in 10 distinct classes.
 The network includes convolutional layers, pooling, fully connected layers, and regularization.
 ## Three Convolutional Layers
 The image is passed through the first convolutional layer which extracts basic features such as edges and then the layers gradually increase the number of output channels
-to capture more complex features.
+to capture more complex features. <br>
 <strong>Similarities: </strong>
 + Kernel size applied to 3 layers are all 3x3
 + Utilized ReLU as an Activation Function and batch normalization
